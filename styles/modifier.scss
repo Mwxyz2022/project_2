@@ -1,0 +1,71 @@
+.basic {
+  &__price-bg {
+    background-color: $cl-bs-green;
+  }
+
+  &__item {
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+  }
+
+  &__btn {
+    background-color: $cl-bs-green;
+  }
+}
+
+.business {
+  position: relative;
+  overflow: hidden;
+  margin: 0 18px;
+
+  &__price-bg {
+    background-color: $cl-bs-blue;
+  }
+
+  &__item {
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+  }
+
+  &__btn {
+    background-color: $cl-bs-blue;
+  }
+}
+
+.webshop {
+  &__price-bg {
+    background-color: $cl-bs-orange;
+  }
+
+  &__item {
+    position: absolute;
+    top: 18px;
+    left: 22px;
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+  }
+
+  &__btn {
+    background-color: $cl-bs-orange;
+  }
+}
+
+.marker-block {
+  width: 147px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  background-color: $cl-bg-marker-red;
+}
+
+.marker {
+  top: 30.6px;
+  right: -30.4px;
+  position: absolute;
+  transform: rotate(45deg);
+}

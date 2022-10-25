@@ -1,12 +1,16 @@
 @import 'variables.scss';
-@import 'styles.scss';
+@import 'card.scss';
+@import 'modifier.scss';
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
   font-family: 'Montserrat', sans-serif;
-  color: $cl-tx-basic;
+  color: $cl-txt-basic-white;
 }
 
 body {

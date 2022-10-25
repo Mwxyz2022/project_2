@@ -7,55 +7,56 @@
   background-color: #334247;
 }
 .price-card__title {
+  padding-top: 33px;
+  font-weight: 700;
   font-size: 35px;
   line-height: 43px;
-  font-weight: 700;
-  padding-top: 33px;
 }
 .price-card__subtitle {
+  padding-bottom: 33px;
+  font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 300;
-  padding-bottom: 33px;
 }
 .price-card__price {
+  width: 100%;
+  padding: 19px 0;
+  text-align: center;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
-  text-align: center;
-  width: 100%;
-  padding: 19px 0;
 }
 .price-card__description {
+  padding: 40px 26px;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  padding: 40px 26px;
 }
 .price-card__options-list {
-  list-style-type: none;
   width: 100%;
+  list-style-type: none;
 }
 .price-card__options-item {
+  position: relative;
+  padding: 16px 0 16px 59px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  padding: 16px 0 16px 59px;
 }
 .price-card__options-item:nth-last-child(even) {
   background-color: #2a3438;
 }
 .price-card__order-btn {
-  height: 40px;
   width: 154px;
-  border-radius: 20px;
-  border: none;
+  height: 40px;
+  margin-top: 39px;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  margin-top: 39px;
+  border-radius: 20px;
+  border: none;
 }
 .price-card__order-btn:hover {
   cursor: pointer;
@@ -64,15 +65,29 @@
 .basic__price-bg {
   background-color: #5bb189;
 }
+.basic__item {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
 .basic__btn {
   background-color: #5bb189;
 }
 
 .business {
+  position: relative;
+  overflow: hidden;
   margin: 0 18px;
 }
 .business__price-bg {
   background-color: #3a6ba5;
+}
+.business__item {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
 .business__btn {
   background-color: #3a6ba5;
@@ -81,14 +96,40 @@
 .webshop__price-bg {
   background-color: #ec632a;
 }
+.webshop__item {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+}
 .webshop__btn {
   background-color: #ec632a;
+}
+
+.marker-block {
+  width: 147px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #dc3f45;
+}
+
+.marker {
+  top: 30.6px;
+  right: -30.4px;
+  position: absolute;
+  transform: rotate(45deg);
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
 }
