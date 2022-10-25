@@ -1,8 +1,11 @@
 # Layout Sample Project
 
-### [Site link](...)
+### [Site link](https://mwxyz2022.github.io/project_2/)
 
-some text
+- Universal layout for commercial offers.
+- 3 card offers.
+- Added marker
+- Flexible style settings
 
 ### The tech stack is:
 
