@@ -28,10 +28,10 @@
 }
 .price-card__description {
   padding: 40px 26px;
+  text-align: center;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  text-align: center;
 }
 .price-card__options-list {
   width: 100%;
@@ -51,12 +51,13 @@
   width: 154px;
   height: 40px;
   margin-top: 39px;
+  text-align: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
   border-radius: 20px;
   border: none;
+  color: #ffffff;
 }
 .price-card__order-btn:hover {
   cursor: pointer;
@@ -64,12 +65,6 @@
 
 .basic__price-bg {
   background-color: #5bb189;
-}
-.basic__item {
-  position: absolute;
-  top: 18px;
-  left: 22px;
-  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
 .basic__btn {
   background-color: #5bb189;
@@ -83,12 +78,6 @@
 .business__price-bg {
   background-color: #3a6ba5;
 }
-.business__item {
-  position: absolute;
-  top: 18px;
-  left: 22px;
-  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
-}
 .business__btn {
   background-color: #3a6ba5;
 }
@@ -96,23 +85,32 @@
 .webshop__price-bg {
   background-color: #ec632a;
 }
-.webshop__item {
+.webshop__btn {
+  background-color: #ec632a;
+}
+
+.mark {
   position: absolute;
   top: 18px;
   left: 22px;
-  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
-.webshop__btn {
-  background-color: #ec632a;
+.mark-basic {
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+.mark-business {
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+}
+.mark-webshop {
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 
 .marker-block {
   width: 147px;
   height: 25px;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 25px;
-  text-align: center;
   background-color: #dc3f45;
 }
 
