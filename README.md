@@ -2,6 +2,7 @@
 
 ### [Site link](https://mwxyz2022.github.io/project_2/)
 
+- responsive design
 - Universal layout for commercial offers.
 - 3 card offers.
 - Added marker

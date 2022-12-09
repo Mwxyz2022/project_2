@@ -2,10 +2,6 @@
   &__price-bg {
     background-color: $cl-bs-green;
   }
-
-  &__btn {
-    background-color: $cl-bs-green;
-  }
 }
 
 .business {
@@ -16,18 +12,23 @@
   &__price-bg {
     background-color: $cl-bs-blue;
   }
-
-  &__btn {
-    background-color: $cl-bs-blue;
-  }
 }
 
 .webshop {
   &__price-bg {
     background-color: $cl-bs-orange;
   }
+}
 
-  &__btn {
+.btn {
+  &_green {
+    background-color: $cl-bs-green;
+  }
+
+  &_blue {
+    background-color: $cl-bs-blue;
+  }
+  &_orange {
     background-color: $cl-bs-orange;
   }
 }
@@ -37,15 +38,15 @@
   top: 18px;
   left: 22px;
 
-  &-basic {
+  &_green {
     content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
   }
 
-  &-business {
+  &_blue {
     content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
   }
 
-  &-webshop {
+  &_orange {
     content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
   }
 }

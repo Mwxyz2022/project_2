@@ -66,9 +66,6 @@
 .basic__price-bg {
   background-color: #5bb189;
 }
-.basic__btn {
-  background-color: #5bb189;
-}
 
 .business {
   position: relative;
@@ -78,14 +75,18 @@
 .business__price-bg {
   background-color: #3a6ba5;
 }
-.business__btn {
-  background-color: #3a6ba5;
-}
 
 .webshop__price-bg {
   background-color: #ec632a;
 }
-.webshop__btn {
+
+.btn_green {
+  background-color: #5bb189;
+}
+.btn_blue {
+  background-color: #3a6ba5;
+}
+.btn_orange {
   background-color: #ec632a;
 }
 
@@ -94,13 +95,13 @@
   top: 18px;
   left: 22px;
 }
-.mark-basic {
+.mark_green {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
-.mark-business {
+.mark_blue {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
 }
-.mark-webshop {
+.mark_orange {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
 
